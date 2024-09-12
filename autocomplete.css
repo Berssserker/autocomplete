@@ -1,0 +1,103 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto.ttf);
+}
+
+body {
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    margin: auto;
+    margin-top: 100px;
+    width: 661px;
+    height:800px;
+    background-color: #C4C4C4;
+}   
+
+.search {
+    border: 0px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: auto;
+    margin: 62px 0 0 77px;
+    padding: 5px 13px;
+    width: 500px;
+    height: 61px;
+    background-color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 400px;
+    line-height: 56.25px;
+}
+
+.reply {
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;           
+    border: 2px solid #000000;           
+    padding: 0 0 0 13px;             
+    font: inherit;          
+    outline: none;          
+    margin: 0 0 0 77px;
+    display: block;
+    width: 500px;
+    height: 44px;
+    background-color: #E3E3E3;
+    font-size: 30px;
+    font-weight: 400px;
+    line-height: 35.16px;
+    animation: fadeIn 0.2s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.reply:hover{
+    background-color: #65CDF9;
+}
+
+.added {
+    top: 490px;
+    position: absolute;
+    margin:  0 0 0 74px
+}
+
+.added-element p {
+    margin: 0 0 0 16px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+.added-element p:first-child {
+    margin-top: 8px;
+}
+
+.remove {
+    cursor: pointer;
+    left: 430px;
+    bottom: 65px;
+    position: relative;
+    width: 48px;
+    height: 38.5px;
+    background-image: url(Vector\ 8.svg), url(Vector\ 7.svg);
+}
+
+.added-element {
+    border: 1px solid #000000;
+    background-color: #E27BEB;
+    width: 503px;
+    height: 101px;
+}
